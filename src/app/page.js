@@ -27,6 +27,7 @@ const Page = () => {
           width={288}
           height={296}
           alt=""
+          priority
         />
       )}
       {click >= 2 && (
@@ -35,6 +36,7 @@ const Page = () => {
           className="top-[470px] right-[20px] absolute z-[2]"
           width={177}
           height={177}
+          priority
           alt=""
         />
       )}
@@ -44,6 +46,7 @@ const Page = () => {
           className="top-[204px] left-[-17px] absolute z-[3]"
           width={177}
           height={177}
+          priority
           alt=""
         />
       )}
@@ -53,6 +56,7 @@ const Page = () => {
           className="top-[204px] left-[29px] absolute z-[4]"
           width={288}
           height={396}
+          priority
           alt=""
         />
       )}
@@ -63,6 +67,7 @@ const Page = () => {
             className="bottom-[200px] left-[6px] absolute z-[5]"
             width={177}
             height={177}
+            priority
             alt=""
           />
           <audio autoPlay>
@@ -76,6 +81,7 @@ const Page = () => {
           className="top-[224px] right-[20px] absolute z-[6]"
           width={177}
           height={177}
+          priority
           alt=""
         />
       )}
@@ -85,6 +91,7 @@ const Page = () => {
           className="top-[320px] left-[86px] absolute z-[7]"
           width={288}
           height={387}
+          priority
           alt=""
         />
       )}
@@ -95,6 +102,7 @@ const Page = () => {
           width={127}
           height={127}
           alt=""
+          priority
         />
       )}
       {click >= 9 && (
@@ -103,6 +111,7 @@ const Page = () => {
           className="bottom-[20px] left-[16px] absolute z-[9]"
           width={153}
           height={153}
+          priority
           alt=""
         />
       )}
@@ -113,6 +122,7 @@ const Page = () => {
           width={318}
           height={419}
           alt=""
+          priority
         />
       )}
       {click >= 11 && (
@@ -122,23 +132,26 @@ const Page = () => {
           width={154}
           height={154}
           alt=""
+          priority
         />
       )}
       {click >= 12 && (
         <Image
           src="/12.png"
-          className="bottom-[150px] right-0 absolute z-[13]"
-          width={178}
-          height={236}
+          className="top-[150px] right-10 absolute z-[12]"
+          width={154}
+          height={154}
+          priority
           alt=""
         />
       )}
       {click >= 13 && (
         <Image
           src="/13.png"
-          className="top-[200px] left-[-13px] absolute z-[12]"
+          className="top-[200px] left-[-13px] absolute z-[13]"
           width={154}
           height={154}
+          priority
           alt=""
         />
       )}
@@ -149,6 +162,7 @@ const Page = () => {
           width={200}
           height={200}
           alt=""
+          priority
         />
       )}
       {click >= 15 && (
@@ -157,6 +171,7 @@ const Page = () => {
           className="top-[300px] left-[27px] absolute z-[15]"
           width={200}
           height={200}
+          priority
           alt=""
         />
       )}
@@ -166,6 +181,7 @@ const Page = () => {
           className="top-[346px] right-0 absolute z-[16]"
           width={200}
           height={200}
+          priority
           alt=""
         />
       )}
@@ -176,6 +192,7 @@ const Page = () => {
           width={200}
           height={273}
           alt=""
+          priority
         />
       )}
       {click >= 18 && (
@@ -185,6 +202,7 @@ const Page = () => {
           width={211}
           height={132}
           alt=""
+          priority
         />
       )}
     </div>
