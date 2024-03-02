@@ -4,7 +4,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Happy Birthday Likitha",
+  title: "Wishes by Sampreet Kulkarni, A very happy birthday Likitha",
   description:
     "Birthday wishes by Sampreet Kulkarni, A very happy birthday Likitha",
 };
