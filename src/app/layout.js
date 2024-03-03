@@ -4,9 +4,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Wishes by Sampreet Kulkarni, A very happy birthday Likitha",
-  description:
-    "Birthday wishes by Sampreet Kulkarni, A very happy birthday Likitha",
+  title: "Happy Birthday La",
+  description: "",
 };
 
 export default function RootLayout({ children }) {
