@@ -21,14 +21,19 @@ const Page = () => {
         <Image src="/flower.svg" alt="" width={45} height={45} />
       </div>
       {click >= 1 && (
-        <Image
-          src="/1.png"
-          className="top-[275px] left-[20px] absolute z-[1]"
-          width={288}
-          height={296}
-          alt=""
-          priority
-        />
+        <>
+          <Image
+            src="/1.png"
+            className="top-[275px] left-[20px] absolute z-[1]"
+            width={288}
+            height={296}
+            alt=""
+            priority
+          />
+          <audio autoPlay>
+            <source src="/audio.mpeg" type="audio/mpeg" />
+          </audio>
+        </>
       )}
       {click >= 2 && (
         <Image
@@ -70,9 +75,6 @@ const Page = () => {
             priority
             alt=""
           />
-          <audio autoPlay>
-            <source src="/audio.mpeg" type="audio/mpeg" />
-          </audio>
         </>
       )}
       {click >= 6 && (
